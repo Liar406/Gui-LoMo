@@ -106,3 +106,7 @@ python evaluation_scienceqa.py \
          --save_path "./results/$task_name/$last_name.json"
 ```
 
+# Acknowlegements
+
+The code is developed based on [MoLA](https://github.com/GCYZSL/MoLA.git) and [darts](https://github.com/quark0/darts.git) projects.
+
