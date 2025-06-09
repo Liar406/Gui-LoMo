@@ -20,4 +20,3 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python mola_training.py \
         --group_by_length \
         --add_eos_token \
         --obalance True \
-        #  --resume_from_checkpoint "/root/moe/models/huggingface/scienceqa_mola8888"
