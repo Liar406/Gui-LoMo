@@ -20,7 +20,6 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python mola_training.py \
          --group_by_length \
          --add_eos_token \
          --obalance True \
-        #  --resume_from_checkpoint "/root/moe/models/huggingface/scienceqa_mola_darts_expertrank_allones_sigmoid_obalance_8_accumulative/checkpoint-600"
 
 python save_rankandexp_num.py --dir $mola_weights_dir --json_name $task_name
 
